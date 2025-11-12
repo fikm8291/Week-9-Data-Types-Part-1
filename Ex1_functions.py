@@ -4,7 +4,7 @@
 # In this exercise, you'll work in groups of 2–3.
 # You'll learn about FUNCTIONS - reusable blocks of code.
 #
-# Basic function:
+# Basic function example:
 # def greet():
 #     print("Hello!")
 #
@@ -21,6 +21,9 @@
 # GROUP INSTRUCTIONS
 # -------------------------------------------
 # Work in groups of 2–3. Share the same GitHub repository.
+# Roles:
+# - One learner acts as the DRIVER (types the code and runs commands).
+# - The other learners are NAVIGATORS (observe, guide, and provide suggestions).
 #
 # After each task:
 # - Current learner: git add, commit, and push
@@ -36,15 +39,16 @@ print("-------------------------------------------\n"
 # Create two functions that display information.
 #
 # TODO:
-# 1. Create a function called 'display_header' that prints:
+# 1. Create a function called 'display_header' that ONLY prints:
 #    "=== LIBRARY BOOK LOAN SYSTEM ==="
 #    "Manchester Central Library"
-# 2. Create a function called 'display_menu' that prints:
+# 2. Create a function called 'display_menu' that ONLY prints:
 #    "1. Record new loan"
 #    "2. View all loans"
 #    "3. Exit"
 # 3. Call both functions to test them.
 #
+# Note: Only the DRIVER should be typing!
 # Write your code below:
 
 
@@ -53,10 +57,11 @@ print("-------------------------------------------\n"
 # -------------------------------------------
 # SWAP COMPUTERS
 # -------------------------------------------
-# git add Ex1_functions.py
-# git commit -m "Completed Task 1"
-# git push origin main
-# Next learner: git pull origin main
+# Use Git to:
+# 1. Stage your changes.
+# 2. Commit with an appropriate message (e.g. "Completed Task 1").
+# 3. Push to the repository.
+# The next learner must pull the latest version before continuing.
 # -------------------------------------------
 
 
@@ -79,6 +84,7 @@ print("-------------------------------------------\n"
 #
 # Test it by calling: display_loan("1984", "George Orwell", "Sarah Smith")
 #
+# Note: Only the DRIVER should be typing!
 # Write your code below:
 
 
@@ -87,10 +93,11 @@ print("-------------------------------------------\n"
 # -------------------------------------------
 # SWAP COMPUTERS
 # -------------------------------------------
-# git add Ex1_functions.py
-# git commit -m "Completed Task 2"
-# git push origin main
-# Next learner: git pull origin main
+# Use Git to:
+# 1. Stage your changes.
+# 2. Commit with an appropriate message (e.g. "Completed Task 2").
+# 3. Push to the repository.
+# The next learner must pull the latest version before continuing.
 # -------------------------------------------
 
 
@@ -113,10 +120,17 @@ print("-------------------------------------------\n"
 #    - Returns the input
 # 4. Create a function called 'create_loan_record' that:
 #    - Takes three parameters: title, author, borrower
-#    - Returns a dictionary: {"title": title, "author": author, "borrower": borrower}
+#    - Returns (NOT prints) a dictionary: {"title": title, "author": author, "borrower": borrower}
+# 5. TESTING YOUR FUNCTIONS:
+#    - Call each of the first three functions and store their results in variables:
+#        E.g. book_title = get_book_title()
+#    - Then pass those variables (e.g. book_title) into create_loan_record() and store the result:
+#        E.g. loan = create_loan_record(book_title, another_variable, another_variable)
+#    - Finally, print the dictionary to check your result.
 #
 # Test by calling all four functions, storing results, and printing the dictionary.
 #
+# Note: Only the DRIVER should be typing!
 # Write your code below:
 
 
@@ -125,10 +139,11 @@ print("-------------------------------------------\n"
 # -------------------------------------------
 # SWAP COMPUTERS
 # -------------------------------------------
-# git add Ex1_functions.py
-# git commit -m "Completed Task 3"
-# git push origin main
-# Next learner: git pull origin main
+# Use Git to:
+# 1. Stage your changes.
+# 2. Commit with an appropriate message (e.g. "Completed Task 3").
+# 3. Push to the repository.
+# The next learner must pull the latest version before continuing.
 # -------------------------------------------
 
 
@@ -159,6 +174,7 @@ print("-------------------------------------------\n"
 #
 # Test by calling record_new_loan() twice, then view_all_loans().
 #
+# Note: Only the DRIVER should be typing!
 # Write your code below:
 
 
@@ -167,10 +183,11 @@ print("-------------------------------------------\n"
 # -------------------------------------------
 # SWAP COMPUTERS
 # -------------------------------------------
-# git add Ex1_functions.py
-# git commit -m "Completed Extension 1"
-# git push origin main
-# Next learner: git pull origin main
+# Use Git to:
+# 1. Stage your changes.
+# 2. Commit with an appropriate message (e.g. "Completed Extension 1").
+# 3. Push to the repository.
+# The next learner must pull the latest version before continuing.
 # -------------------------------------------
 
 
@@ -196,6 +213,7 @@ print("-------------------------------------------\n"
 #
 # Test by trying to leave fields blank - it should keep asking!
 #
+# Note: Only the DRIVER should be typing!
 # Write your code below:
 
 
@@ -204,10 +222,11 @@ print("-------------------------------------------\n"
 # -------------------------------------------
 # SWAP COMPUTERS
 # -------------------------------------------
-# git add Ex1_functions.py
-# git commit -m "Completed Extension 2"
-# git push origin main
-# Next learner: git pull origin main
+# Use Git to:
+# 1. Stage your changes.
+# 2. Commit with an appropriate message (e.g. "Completed Extension 2").
+# 3. Push to the repository.
+# The next learner must pull the latest version before continuing.
 # -------------------------------------------
 
 
@@ -231,6 +250,7 @@ print("-------------------------------------------\n"
 #
 # HINT: if search.lower() in loan["borrower"].lower():
 #
+# Note: Only the DRIVER should be typing!
 # Write your code below:
 
 
@@ -239,10 +259,11 @@ print("-------------------------------------------\n"
 # -------------------------------------------
 # SWAP COMPUTERS
 # -------------------------------------------
-# git add Ex1_functions.py
-# git commit -m "Completed Extension 3"
-# git push origin main
-# Next learner: git pull origin main
+# Use Git to:
+# 1. Stage your changes.
+# 2. Commit with an appropriate message (e.g. "Completed Extension 3").
+# 3. Push to the repository.
+# The next learner must pull the latest version before continuing.
 # -------------------------------------------
 
 
@@ -271,6 +292,7 @@ print("-------------------------------------------\n"
 #    - Print a blank line after each action
 # 3. At the very bottom of your file, call main()
 #
+# Note: Only the DRIVER should be typing!
 # Write your code below:
 
 
@@ -279,7 +301,8 @@ print("-------------------------------------------\n"
 # -------------------------------------------
 # Submitting Your Work
 # -------------------------------------------
-# git add Ex1_functions.py
-# git commit -m "Completed Advanced"
-# git push origin main
+# Use Git to:
+# 1. Stage your final changes.
+# 2. Commit with an appropriate message (e.g. "Completed Advanced Activity").
+# 3. Push your final version to the repository.
 # -------------------------------------------
